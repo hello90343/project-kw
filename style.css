@@ -354,6 +354,17 @@ footer .right4 svg {
       gap: 20px;
     }
   }
+
+  @media (max-width: 600px) {
+    .top-img {
+      width: 300px;
+    }
+
+    article {
+      width: 300px;
+    }
+  }
+
   @media (max-width: 500px) {
     .main1 {
       display: flex;
