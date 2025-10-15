@@ -243,6 +243,16 @@ footer .right4 svg {
   height: 40px;
 }
 
+@media (max-width: 1500px) {
+  #section-1 {
+    max-width: 1200px;
+  }
+
+  #section-2 {
+    max-width: 1200px;
+  }
+}
+
 @media (max-width: 1150px) {
   .main1 header h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
