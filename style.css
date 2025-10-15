@@ -267,6 +267,113 @@ button:hover {
 
 /* Kelly Section end*/
 
+
+/* Gr. Section is starting */
+
+.info12{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  margin: 30px;
+  max-width: 1200px;
+}
+
+
+.info12 .content12 {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.info12 .content12::-webkit-scrollbar {
+  display: none;
+}
+
+.info12 .content12 .article12 {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info12 .content12 .article12 .img12 {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.info12 .content12 .article12 header {
+  font-weight: 800;
+}
+
+.info12 .content12 .article12 aside {
+  color: grey;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.dots {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.dots a {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: brown;
+  display: flex;
+}
+
+.dots a:hover {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+}
+
+/* Gr. Section ended */
+
+/* Gr. Footer is starting */
+
+footer{
+  background-color: rgb(0, 0, 34);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+footer a img:hover{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
+-webkit-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
+-moz-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
+}
+
+/* Gr. Footer ended */
+
+
 /* Responsive Design */
 @media (max-width: 1500px) {
   #section-1 {
@@ -295,6 +402,36 @@ button:hover {
       flex-direction: column;
       gap: 30px;
     }
+
+    .info12 .content12 {
+     flex-wrap: wrap; /* Mit flex-wrap: wrap; es wird erlaubt, dass die Kinder umbrechen machen dürfen */
+     justify-content: space-between;
+}
+
+.info12 .content12 .article12 {
+  flex: 0 0 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+  .info12 .content12 .article12 header {
+  font-weight: 800;
+   }
+
+  .info12 .content12 .article12 aside {
+  color: grey;
+  font-size: 2vw;
+  font-family: 'Raleway', sans-serif;
+  }
+
+  .dots {
+  margin-bottom: 0px;
+}
+
+.dots a {
+  display: none;
+}
   }
 
   @media (max-width: 600px) {
