@@ -14,18 +14,37 @@
   </head>
   <body>
 
-   <header class="header">
-        <div class="container">
-    <img class="logo" src="./Infos/img/logo.png" alt="logo"> 
-    <div class="navigation">
-    <nav class="top-header">
-        <a href="#" class="header-link">Start</a>          
-        <a href="#" class="header-link">Rezept des Tages</a>
-        <a href="#" class="header-link">Kontakt</a>
-        <a href="#" class="header-link">Impressum</a>
-    </nav>
-   </header>
-   
+    <header class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt="Kochwelt Logo" class="logo-img"></a>
+        </div>
+        <div class="nav-container">
+            <input type="checkbox" id="menuToggle" class="menu-toggle">
+            <label for="menuToggle" class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+          <nav class="desktop-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Start</a></li>
+                    <li><a href="#" class="nav-link">Rezept des Tages</a></li>
+                    <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+                    <li><a href="#" class="nav-link">Impressum</a></li>
+                </ul>
+            </nav>
+             <nav class="mobile-nav">
+                <ul class="mobile-menu">
+                    <li><a href="index.html" class="mobile-link">Start</a></li>
+                    <li><a href="#" class="mobile-link">RezeptdesTages</a></li>
+                    <li><a href="#" class="mobile-link">Kontakt</a></li>
+                    <li><a href="kontakt.html" class="mobile-link">Impressum</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
    <main>
      <section id="section-1">
         <div class="container-sec-1">
