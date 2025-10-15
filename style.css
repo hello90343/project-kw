@@ -160,11 +160,16 @@ textarea {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     transition: all 0.3s;
     text-transform: uppercase;
     letter-spacing: 1px;
     background: linear-gradient(to right, rgb(0, 128, 0), rgb(0, 100, 0));
+        }
+
+.submit-container {
+    display: flex;
+    justify-content: center;
         }
 /* Header Section end*/
 
