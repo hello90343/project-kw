@@ -146,6 +146,11 @@ textarea {
   resize: vertical;
 }
 
+.submit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .submit-btn {
     color: white;
     border: none;
