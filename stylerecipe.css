@@ -249,3 +249,18 @@ h3 {
   width: 50px;
   margin-right: 32px;
 }
+.left {
+  width: 16px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.meta2 {
+  display: flex;
+  background-color: #ededed;
+  border-radius: 10px;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
