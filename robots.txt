@@ -1,0 +1,10 @@
+# Verbieten aller rechtlichen Seite
+User-agent: *
+
+Disallow: /agb.html
+Disallow: /impressum.html
+Disallow: /datenschutz.html
+Disallow: /widerruf.html
+
+# An die Gruppenmitglieder. Verwendet die angegebene Dateinamen für die Dateien (potenzielle Seiten). Wenn
+Ihr ein anderen Dateinamen der Datei bevorzugt, dann passt den Dateinnamen oben in der Zeile entsprechend an.
