@@ -178,6 +178,7 @@ button:hover {
 /*button style end */
 
 main {
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -208,4 +209,11 @@ main {
 
 .input-section {
   display: flex;
+  align-items: center;
+}
+
+input {
+  width: 180px;
+  height: 35px;
+  border-radius: 0;
 }
