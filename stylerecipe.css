@@ -230,6 +230,15 @@ table {
   width: 100%;
 }
 
+tr {
+  height: 40px;
+  border-collapse: collapse;
+}
+
+.tr-background {
+  background-color: #ededed;
+}
+
 .preparation {
   padding-top: 24px;
   max-width: 1440px;
