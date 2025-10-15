@@ -140,12 +140,7 @@ button:hover {
   border-radius: 10px;
 }
 
-.img-sec-2 {
-  height: 180px;
-  width: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-}
+/* Kelly Section */
 
 .main1 {
   display: flex;
