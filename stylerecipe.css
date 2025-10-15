@@ -160,6 +160,19 @@ textarea {
   background: linear-gradient(to right, rgb(0, 128, 0), rgb(0, 100, 0));
 }
 
+button {
+  width: 180px;
+  padding: 10px;
+  background-color: #167812;
+  color: white;
+  border: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .top_section {
   display: flex;
   flex-direction: column;
