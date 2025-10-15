@@ -147,24 +147,24 @@ textarea {
 }
 
 .submit-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .submit-btn {
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    width: 50%;
-    transition: all 0.3s;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    background: linear-gradient(to right, rgb(0, 128, 0), rgb(0, 100, 0));
-        }
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 50%;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, rgb(0, 128, 0), rgb(0, 100, 0));
+}
 /* Header Section end*/
 
 h2 {
@@ -224,6 +224,11 @@ button {
 button:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.btn-deco {
+  text-decoration: none;
+  color: white;
 }
 
 #section-2 {
