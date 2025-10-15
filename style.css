@@ -140,7 +140,7 @@ button:hover {
   border-radius: 10px;
 }
 
-/* Kelly Section */
+/* Kelly Section end*/
 
 .main1 {
   display: flex;
@@ -239,7 +239,7 @@ footer .right4 svg {
   width: 40px;
   height: 40px;
 }
- /* Responsive Design */
+/* Responsive Design */
 @media (max-width: 1500px) {
   #section-1 {
     max-width: 1200px;
