@@ -686,5 +686,22 @@ h3 {
 /*recipe.html style end*/
 
 /*media query for recipe start*/
+@media (max-width: 1300px) {
+  .top_section {
+    max-width: 900px;
+  }
+
+  .top_section_img {
+    width: 860px;
+  }
+
+  .ingredient-table {
+    width: 900px;
+  }
+
+  .preparation {
+    max-width: 900px;
+  }
+}
 
 /*media query for recipe end*/
