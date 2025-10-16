@@ -228,11 +228,11 @@ input {
 
 table {
   width: 100%;
+  border-collapse: separate;
 }
 
 tr {
   height: 40px;
-  border-collapse: collapse;
 }
 
 .tr-background {
