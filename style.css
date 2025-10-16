@@ -568,6 +568,123 @@ footer a img:hover {
   }
 }
 
+/*recipe.html style start*/
+.main-recipe {
+  max-width: 1200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.top_section {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.meta1 {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.top_section_img {
+  height: 200px;
+  width: 1200px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 24px;
+}
+
+.ingredient-table {
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.input-section {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.input-recipe-people {
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+
+input::placeholder {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  padding: 16px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ededed;
+}
+
+td:first-child {
+  border-radius: 10px 0 0 10px;
+  width: 80px;
+}
+td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.preparation {
+  padding-top: 24px;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 32px;
+}
+.left {
+  width: 16px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.meta2 {
+  display: flex;
+  background-color: #ededed;
+  border-radius: 7px;
+  padding: 6px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+/*recipe.html style end*/
+
 /*media query for recipe start*/
 
 /*media query for recipe end*/
