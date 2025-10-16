@@ -915,4 +915,43 @@ h3 {
   }
 }
 
+@media (max-width: 900px) {
+  .top_section {
+    max-width: 750px;
+  }
+
+  .top_section_img {
+    width: 700px;
+  }
+
+  .ingredient-table {
+    width: 750px;
+  }
+
+  .preparation {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 775px) {
+  .top_section {
+    max-width: 500px;
+  }
+
+  .top_section_img {
+    width: 450px;
+  }
+
+  .ingredient-table {
+    width: 500px;
+  }
+
+  .preparation {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+}
+
 /*media query for recipe end*/
