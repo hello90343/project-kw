@@ -663,6 +663,19 @@ footer #a img:hover {
 }
 
 @media (max-width: 375px) {
+  .container-sec-1 {
+    width: 200px;
+    padding: 0;
+  }
+
+  .top-img {
+    width: 200px;
+    margin: 0;
+  }
+
+  article {
+    width: 200px;
+  }
 }
 
 /* Responsive Design header */
