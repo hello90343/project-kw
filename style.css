@@ -397,6 +397,7 @@ footer a img:hover {
 @media (max-width: 800px) {
   .container-sec-1 {
     flex-direction: column;
+    padding-left: 30px;
   }
 
   .mobile-gap {
@@ -450,6 +451,18 @@ footer a img:hover {
 
   article {
     width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  #section-1 {
+    max-width: 280px;
+  }
+
+  .container-sec-1 {
+    padding: 0;
+    width: 280px;
+    margin-right: 18px;
   }
 }
 
