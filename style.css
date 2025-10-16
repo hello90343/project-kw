@@ -188,12 +188,14 @@ main {
 }
 
 #section-1 {
-  max-width: 1440px;
+  height: 400px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container-sec-1 {
@@ -219,6 +221,7 @@ button {
   background-color: #167812;
   color: white;
   border: 0;
+  border-radius: 10px;
 }
 
 button:hover {
@@ -232,15 +235,17 @@ button:hover {
 }
 
 #section-2 {
-  max-width: 1440px;
+  height: 400px;
+  max-width: 1200px;
   width: 100%;
   background-color: #ededed;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 60px;
+
   justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .sec-2-background {
@@ -274,7 +279,6 @@ button:hover {
 }
 
 /* Kelly Section end*/
-
 
 /* Gr. Section is starting */
 
@@ -326,7 +330,7 @@ button:hover {
 .info12 .content12 .article12 aside {
   color: grey;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .dots {
@@ -356,7 +360,7 @@ button:hover {
 
 /* Gr. Footer is starting */
 
-footer{
+footer {
   background-color: rgb(0, 0, 34);
   width: 100%;
   height: 150px;
@@ -366,7 +370,7 @@ footer{
   gap: 70px;
 }
 
-footer a img{
+footer a img {
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -402,7 +406,6 @@ transform: scale(1.2);
 
 
 /* Gr. Footer ended */
-
 
 /* Responsive Design */
 @media (max-width: 1500px) {
@@ -476,6 +479,7 @@ transform: scale(1.2);
 @media (max-width: 800px) {
   .container-sec-1 {
     flex-direction: column;
+    padding-left: 30px;
   }
 
   .mobile-gap {
@@ -503,26 +507,26 @@ transform: scale(1.2);
      justify-content: space-between;
 }
 
-.info12 .content12 .article12 {
-  flex: 0 0 48%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+  .info12 .content12 .article12 {
+    flex: 0 0 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
   .info12 .content12 .article12 header {
-  font-weight: 800;
-   }
+    font-weight: 800;
+  }
 
   .info12 .content12 .article12 aside {
-  color: grey;
-  font-size: 2vw;
-  font-family: 'Raleway', sans-serif;
+    color: grey;
+    font-size: 2vw;
+    font-family: "Raleway", sans-serif;
   }
 
   .dots {
-  margin-bottom: 0px;
-}
+    margin-bottom: 0px;
+  }
 
 .dots a {
   display: none;
@@ -745,3 +749,124 @@ transform: scale(1.2);
     display: none !important;
   }
 }
+
+/*recipe.html style start*/
+.main-recipe {
+  max-width: 1200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.top_section {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.meta1 {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.top_section_img {
+  height: 200px;
+  width: 1160px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 24px;
+}
+
+.ingredient-table {
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.input-section {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.input-recipe-people {
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+
+input::placeholder {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  padding: 16px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ededed;
+}
+
+td:first-child {
+  border-radius: 10px 0 0 10px;
+  width: 80px;
+}
+td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.preparation {
+  padding-top: 24px;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 32px;
+}
+.left {
+  width: 16px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.meta2 {
+  display: flex;
+  background-color: #ededed;
+  border-radius: 7px;
+  padding: 6px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+/*recipe.html style end*/
+
+/*media query for recipe start*/
+
+/*media query for recipe end*/
