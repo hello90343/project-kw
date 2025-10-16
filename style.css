@@ -282,7 +282,7 @@ button:hover {
 
 /* Gr. Section is starting */
 
-  .info12{
+.info12 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,7 +296,6 @@ button:hover {
 .info12 h2 {
   text-align: center;
 }
-
 
 .info12 .content12 {
   display: flex;
@@ -379,31 +378,29 @@ footer a img {
   transition: transform 0.3s ease;
 }
 
-footer a img:hover{
+footer a img:hover {
   width: 50px;
   height: 50px;
   border-radius: 50px;
   background-size: cover;
   background-position: center;
-  box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
--webkit-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
--moz-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
-transform: scale(1.2);
+  box-shadow: -1px 1px 60px 10px rgba(108, 209, 100, 1);
+  -webkit-box-shadow: -1px 1px 60px 10px rgba(108, 209, 100, 1);
+  -moz-box-shadow: -1px 1px 60px 10px rgba(108, 209, 100, 1);
+  transform: scale(1.2);
 }
 
-footer #a img:hover{
+footer #a img:hover {
   width: 50px;
   height: 50px;
   border-radius: 50px;
   background-size: cover;
   background-position: center;
   box-shadow: -1px 1px 60px 10px rgb(234, 149, 39);
--webkit-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
--moz-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
-transform: scale(1.2);
+  -webkit-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+  -moz-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+  transform: scale(1.2);
 }
-
-
 
 /* Gr. Footer ended */
 
@@ -420,61 +417,60 @@ transform: scale(1.2);
 
 @media (max-width: 1300px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 275px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 275px;
+    object-position: top;
+  }
 }
 
 @media (max-width: 1200px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 265px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 265px;
+    object-position: top;
+  }
 }
 
 @media (max-width: 1100px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 245px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 245px;
+    object-position: top;
+  }
 }
 @media (max-width: 1000px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 220px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 220px;
+    object-position: top;
+  }
 }
 @media (max-width: 900px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 200px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 200px;
+    object-position: top;
+  }
 }
 @media (max-width: 850px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 180px;
-  object-position: top;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 180px;
+    object-position: top;
+  }
 }
-}
-
 
 @media (max-width: 800px) {
   .container-sec-1 {
@@ -490,22 +486,34 @@ transform: scale(1.2);
     max-width: 500px;
   }
 
+  #section-1 {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #section-2 {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .section-2-img-div {
-      flex-direction: column;
-      gap: 30px;
+    flex-direction: column;
+    gap: 30px;
   }
 
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 90px;
-  object-position: top;
-}
-    .info12 .content12 {
-     flex-wrap: wrap; /* Mit flex-wrap: wrap; es wird erlaubt, dass die Kinder umbrechen machen dürfen */
-     justify-content: space-between;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 90px;
+    object-position: top;
+  }
+  .info12 .content12 {
+    flex-wrap: wrap; /* Mit flex-wrap: wrap; es wird erlaubt, dass die Kinder umbrechen machen dürfen */
+    justify-content: space-between;
+  }
 
   .info12 .content12 .article12 {
     flex: 0 0 48%;
@@ -528,81 +536,81 @@ transform: scale(1.2);
     margin-bottom: 0px;
   }
 
-.dots a {
-  display: none;
-}
-
-footer{
-  background-color: rgb(0, 0, 34);
-  width: 100%;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
-}
-
-footer a img{
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
-  background-size: cover;
-  background-position: center;
-  transition: transform 0.3s ease;
-}
-
-footer a img:hover{
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
-  background-size: cover;
-  background-position: center;
-  box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
--webkit-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
--moz-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
-transform: scale(1.2);
-}
-
-footer #a img:hover{
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
-  background-size: cover;
-  background-position: center;
-  box-shadow: -1px 1px 60px 10px rgb(234, 149, 39);
--webkit-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
--moz-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
-transform: scale(1.2);
-}
+  .dots a {
+    display: none;
   }
 
-  @media(max-width: 750px) {
+  footer {
+    background-color: rgb(0, 0, 34);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+  footer a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+  }
+
+  footer a img:hover {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -1px 1px 60px 10px rgba(108, 209, 100, 1);
+    -webkit-box-shadow: -1px 1px 60px 10px rgba(108, 209, 100, 1);
+    -moz-box-shadow: -1px 1px 60px 10px rgba(108, 209, 100, 1);
+    transform: scale(1.2);
+  }
+
+  footer #a img:hover {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -1px 1px 60px 10px rgb(234, 149, 39);
+    -webkit-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+    -moz-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 750px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 80px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 80px;
+    object-position: top;
   }
-  @media(max-width: 700px) {
+}
+@media (max-width: 700px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 70px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 70px;
+    object-position: top;
   }
-  @media(max-width: 650px) {
+}
+@media (max-width: 650px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 65px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 65px;
+    object-position: top;
   }
+}
 
 @media (max-width: 600px) {
   .top-img {
@@ -612,42 +620,50 @@ transform: scale(1.2);
   article {
     width: 300px;
   }
-    .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 60px;
-  object-position: top;
-}
+  .info12 .content12 .article12 .img12 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 60px;
+    object-position: top;
+  }
 }
 
-  @media(max-width: 550px) {
+@media (max-width: 550px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 55px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 55px;
+    object-position: top;
   }
-  @media(max-width: 500px) {
+}
+@media (max-width: 500px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 50px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 50px;
+    object-position: top;
   }
-  @media(max-width: 450px) {
+}
+@media (max-width: 450px) {
   .info12 .content12 .article12 .img12 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  height: 45px;
-  object-position: top;
-}
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 45px;
+    object-position: top;
   }
+
+  #section-1 {
+    width: 300px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 375px) {
+}
 
 /* Responsive Design header */
 
