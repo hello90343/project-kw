@@ -188,7 +188,7 @@ main {
 }
 
 #section-1 {
-  max-width: 1440px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   background-color: white;
@@ -234,7 +234,7 @@ button:hover {
 }
 
 #section-2 {
-  max-width: 1440px;
+  max-width: 1200px;
   width: 100%;
   background-color: #ededed;
   display: flex;
