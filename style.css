@@ -678,13 +678,13 @@ footer #a img:hover {
     width: 200px;
   }
 
- .info12 .content12 {
+  .info12 .content12 {
     flex-wrap: wrap; /* Mit flex-wrap: wrap; es wird erlaubt, dass die Kinder umbrechen machen dürfen */
     flex-direction: column;
     gap: 30px;
   }
 
-    .info12 .content12 .article12 .img12 {
+  .info12 .content12 .article12 .img12 {
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
@@ -692,7 +692,7 @@ footer #a img:hover {
     object-position: top;
   }
 
-    .info12 .content12 .article12 aside {
+  .info12 .content12 .article12 aside {
     color: grey;
     font-size: 15px;
     font-family: "Raleway", sans-serif;
@@ -834,6 +834,14 @@ footer #a img:hover {
   margin-top: 24px;
 }
 
+.seperator {
+  background-color: #ededed;
+  width: 1160px;
+  height: 2px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 .ingredient-table {
   width: 1200px;
   padding-left: 20px;
@@ -927,6 +935,12 @@ h3 {
     width: 860px;
   }
 
+  .seperator {
+    width: 860px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
   .ingredient-table {
     width: 900px;
   }
@@ -945,6 +959,12 @@ h3 {
     width: 700px;
   }
 
+  .seperator {
+    width: 700px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
   .ingredient-table {
     width: 750px;
   }
@@ -961,6 +981,12 @@ h3 {
 
   .top_section_img {
     width: 450px;
+  }
+
+  .seperator {
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   .ingredient-table {
@@ -985,6 +1011,12 @@ h3 {
 
   .top_section_img {
     width: 250px;
+  }
+
+  .seperator {
+    width: 250px;
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
 
   .ingredient-table {
