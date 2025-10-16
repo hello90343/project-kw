@@ -231,7 +231,7 @@ table {
 }
 
 table td {
-  padding: 8px;
+  padding: 16px;
 }
 table tr:nth-child(odd) {
   background-color: #ededed;
