@@ -278,15 +278,19 @@ button:hover {
 
 /* Gr. Section is starting */
 
-.info12{
+  .info12{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin: 30px;
-  max-width: 1200px;
+  padding: 0 8vw;
+}
+
+.info12 h2 {
+  text-align: center;
 }
 
 
@@ -309,9 +313,10 @@ button:hover {
 
 .info12 .content12 .article12 .img12 {
   width: 100%;
-  aspect-ratio: 16/9;
   object-fit: cover;
   border-radius: 20px;
+  height: 300px;
+  object-position: top;
 }
 
 .info12 .content12 .article12 header {
@@ -358,6 +363,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 70px;
 }
 
 footer a img{
@@ -366,18 +372,34 @@ footer a img{
   border-radius: 50px;
   background-size: cover;
   background-position: center;
+  transition: transform 0.3s ease;
 }
 
 footer a img:hover{
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   background-size: cover;
   background-position: center;
   box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
 -webkit-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
 -moz-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
+transform: scale(1.2);
 }
+
+footer #a img:hover{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: -1px 1px 60px 10px rgb(234, 149, 39);
+-webkit-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+-moz-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+transform: scale(1.2);
+}
+
+
 
 /* Gr. Footer ended */
 
@@ -393,6 +415,64 @@ footer a img:hover{
   }
 }
 
+@media (max-width: 1300px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 275px;
+  object-position: top;
+}
+}
+
+@media (max-width: 1200px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 265px;
+  object-position: top;
+}
+}
+
+@media (max-width: 1100px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 245px;
+  object-position: top;
+}
+}
+@media (max-width: 1000px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 220px;
+  object-position: top;
+}
+}
+@media (max-width: 900px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 200px;
+  object-position: top;
+}
+}
+@media (max-width: 850px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 180px;
+  object-position: top;
+}
+}
+
+
 @media (max-width: 800px) {
   .container-sec-1 {
     flex-direction: column;
@@ -406,11 +486,18 @@ footer a img:hover{
     max-width: 500px;
   }
 
-    .section-2-img-div {
+  .section-2-img-div {
       flex-direction: column;
       gap: 30px;
-    }
+  }
 
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 90px;
+  object-position: top;
+}
     .info12 .content12 {
      flex-wrap: wrap; /* Mit flex-wrap: wrap; es wird erlaubt, dass die Kinder umbrechen machen dürfen */
      justify-content: space-between;
@@ -440,6 +527,77 @@ footer a img:hover{
 .dots a {
   display: none;
 }
+
+footer{
+  background-color: rgb(0, 0, 34);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+footer a img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+footer a img:hover{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
+-webkit-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
+-moz-box-shadow: -1px 1px 60px 10px rgba(108,209,100,1);
+transform: scale(1.2);
+}
+
+footer #a img:hover{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: -1px 1px 60px 10px rgb(234, 149, 39);
+-webkit-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+-moz-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+transform: scale(1.2);
+}
+  }
+
+  @media(max-width: 750px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 80px;
+  object-position: top;
+}
+  }
+  @media(max-width: 700px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 70px;
+  object-position: top;
+}
+  }
+  @media(max-width: 650px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 65px;
+  object-position: top;
+}
   }
 
 @media (max-width: 600px) {
@@ -450,7 +608,42 @@ footer a img:hover{
   article {
     width: 300px;
   }
+    .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 60px;
+  object-position: top;
 }
+}
+
+  @media(max-width: 550px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 55px;
+  object-position: top;
+}
+  }
+  @media(max-width: 500px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 50px;
+  object-position: top;
+}
+  }
+  @media(max-width: 450px) {
+  .info12 .content12 .article12 .img12 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 45px;
+  object-position: top;
+}
+  }
 
 /* Responsive Design header */
 
