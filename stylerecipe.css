@@ -176,7 +176,7 @@ button:hover {
 }
 
 /*button style end */
-
+/*recipe.html style start*/
 main {
   max-width: 100%;
   display: flex;
@@ -285,3 +285,4 @@ h3 {
   justify-content: center;
   margin-right: 16px;
 }
+/*recipe.html style end*/
