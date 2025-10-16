@@ -226,6 +226,10 @@ input {
   margin-left: 16px;
 }
 
+input::placeholder {
+  font-weight: bold;
+}
+
 table {
   width: 100%;
 }
