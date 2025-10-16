@@ -243,7 +243,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -263,6 +262,22 @@ button:hover {
   justify-content: space-between;
   font-weight: bold;
   padding-top: 30px;
+}
+
+.recipe-img-link-effect {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-decoration: none;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-img-link-effect:hover {
+  scale: 1.2;
+  filter: drop-shadow(1);
+  transition: ease-in-out;
 }
 
 .img-container-sec-2 {
