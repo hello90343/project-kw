@@ -177,7 +177,7 @@ button:hover {
 
 /*button style end */
 /*recipe.html style start*/
-main {
+.main-recipe {
   max-width: 1200;
   display: flex;
   flex-direction: column;
