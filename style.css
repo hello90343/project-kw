@@ -300,6 +300,7 @@ button:hover {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
+  max-width: 1100px;
 }
 
 .info12 .content12::-webkit-scrollbar {
