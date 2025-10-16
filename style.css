@@ -677,6 +677,26 @@ footer #a img:hover {
   article {
     width: 200px;
   }
+
+ .info12 .content12 {
+    flex-wrap: wrap; /* Mit flex-wrap: wrap; es wird erlaubt, dass die Kinder umbrechen machen dürfen */
+    flex-direction: column;
+    gap: 30px;
+  }
+
+    .info12 .content12 .article12 .img12 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 65px;
+    object-position: top;
+  }
+
+    .info12 .content12 .article12 aside {
+    color: grey;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+  }
 }
 
 /* Responsive Design header */
