@@ -949,6 +949,12 @@ h3 {
   .preparation {
     max-width: 500px;
   }
+
+  .input-section {
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 500px) {
@@ -987,6 +993,10 @@ h3 {
   }
   .input-recipe-people {
     margin: 0;
+  }
+
+  .mobile-p-bot-gap {
+    padding-bottom: 8px;
   }
 
   /*media query for recipe end*/
