@@ -180,6 +180,7 @@ h2 {
 }
 
 main {
+  margin: 3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,12 +222,12 @@ button {
   background-color: #167812;
   color: white;
   border: 0;
-  border-radius: 10px;
 }
 
 button:hover {
   cursor: pointer;
   transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .btn-deco {
@@ -242,7 +243,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -262,6 +262,22 @@ button:hover {
   justify-content: space-between;
   font-weight: bold;
   padding-top: 30px;
+}
+
+.recipe-img-link-effect {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-decoration: none;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-img-link-effect:hover {
+  scale: 1.2;
+  filter: drop-shadow(1);
+  transition: ease-in-out;
 }
 
 .img-container-sec-2 {
@@ -301,6 +317,7 @@ button:hover {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
+  max-width: 1100px;
 }
 
 .info12 .content12::-webkit-scrollbar {
@@ -676,6 +693,26 @@ footer #a img:hover {
   article {
     width: 200px;
   }
+
+  .info12 .content12 {
+    flex-wrap: wrap; /* Mit flex-wrap: wrap; es wird erlaubt, dass die Kinder umbrechen machen dürfen */
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .info12 .content12 .article12 .img12 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 65px;
+    object-position: top;
+  }
+
+  .info12 .content12 .article12 aside {
+    color: grey;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+  }
 }
 
 /* Responsive Design header */
@@ -813,6 +850,14 @@ footer #a img:hover {
   margin-top: 24px;
 }
 
+.seperator {
+  background-color: #ededed;
+  width: 1160px;
+  height: 2px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 .ingredient-table {
   width: 1200px;
   padding-left: 20px;
@@ -876,7 +921,7 @@ h3 {
 
 .profile-pic {
   border-radius: 50%;
-  width: 50px;
+  width: 75px;
   margin-right: 32px;
 }
 .left {
@@ -906,6 +951,12 @@ h3 {
     width: 860px;
   }
 
+  .seperator {
+    width: 860px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
   .ingredient-table {
     width: 900px;
   }
@@ -915,4 +966,107 @@ h3 {
   }
 }
 
-/*media query for recipe end*/
+@media (max-width: 900px) {
+  .top_section {
+    max-width: 750px;
+  }
+
+  .top_section_img {
+    width: 700px;
+  }
+
+  .seperator {
+    width: 700px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .ingredient-table {
+    width: 750px;
+  }
+
+  .preparation {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 775px) {
+  .top_section {
+    max-width: 500px;
+  }
+
+  .top_section_img {
+    width: 450px;
+  }
+
+  .seperator {
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .ingredient-table {
+    width: 500px;
+  }
+
+  .preparation {
+    max-width: 500px;
+  }
+
+  .input-section {
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .top_section {
+    max-width: 300px;
+  }
+
+  .top_section_img {
+    width: 250px;
+  }
+
+  .seperator {
+    width: 250px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .ingredient-table {
+    width: 300px;
+  }
+
+  .preparation {
+    max-width: 300px;
+  }
+
+  .meta1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .input-recipe-people {
+    margin: 0;
+  }
+
+  .mobile-p-bot-gap {
+    padding-bottom: 8px;
+  }
+
+  /*media query for recipe end*/
+}
