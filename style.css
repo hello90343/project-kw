@@ -180,6 +180,7 @@ h2 {
 }
 
 main {
+  margin: 3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
