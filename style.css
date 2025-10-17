@@ -1050,7 +1050,7 @@ h3 {
 
 /*css for recipe input*/
 form {
-  display: flex;
+ 
   align-items: center;
   padding-bottom: 8px;
 }
