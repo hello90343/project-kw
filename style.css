@@ -998,12 +998,6 @@ h3 {
   .preparation {
     max-width: 500px;
   }
-
-  .input-section {
-    padding-bottom: 8px;
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 @media (max-width: 500px) {
@@ -1055,7 +1049,7 @@ h3 {
   /*media query for recipe end*/
 }
 
-/*test for input*/
+/*css for recipe input*/
 form {
   display: flex;
   align-items: center;
@@ -1097,4 +1091,4 @@ label {
 .inputnmb::placeholder {
   font-weight: bold;
 }
-/*test for input end*/
+/*css for recipe input end*/
