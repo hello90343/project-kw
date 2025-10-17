@@ -1045,6 +1045,8 @@ h3 {
   .mobile-p-bot-gap {
     padding-bottom: 8px;
   }
+   .submit-btn {
+    font-size: 8px;
 }
 /*media query for recipe end*/
 
