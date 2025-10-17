@@ -1018,6 +1018,12 @@ h3 {
   .preparation {
     max-width: 500px;
   }
+
+  .input-section {
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1072,12 +1078,12 @@ h3 {
   }
   /*media query for recipe end*/
 
-  /*css for recipe input*/
-  .inputrecipe-form {
-    align-items: center;
-    padding-bottom: 8px;
-    display: flex;
-  }
+/*test for input*/
+form {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
 
   label {
     margin-bottom: 0;
@@ -1110,8 +1116,7 @@ h3 {
     width: 180px;
   }
 
-  .inputnmb::placeholder {
-    font-weight: bold;
-  }
-  /*css for recipe input end*/
+.inputnmb::placeholder {
+  font-weight: bold;
 }
+/*test for input end*/
