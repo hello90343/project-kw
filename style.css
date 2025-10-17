@@ -1051,7 +1051,7 @@ h3 {
   /*media query for recipe end*/
 
   /*css for recipe input*/
-  #form-recipe {
+  .inputrecipeform {
     align-items: center;
     padding-bottom: 8px;
     display: flex;
