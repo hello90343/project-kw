@@ -48,7 +48,9 @@
                 <a href="recipe.html" class="mobile-link">RezeptdesTages</a>
               </li>
               <li><a href="kontakt.html" class="mobile-link">Kontakt</a></li>
-              <li><a href="impressum.html" class="mobile-link">Impressum</a></li>
+              <li>
+                <a href="impressum.html" class="mobile-link">Impressum</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -59,7 +61,11 @@
       <section class="top_section">
         <header class="top1">
           <h2 class="mobile-sec-1-h2">Lammkoteletts und Gemüse</h2>
-          <img class="top_section_img" src="./Infos/img/fleisch-gemüse.png" alt="" />
+          <img
+            class="top_section_img"
+            src="./Infos/img/fleisch-gemüse.png"
+            alt=""
+          />
         </header>
         <div class="meta1">
           <div class="meta2">
@@ -85,16 +91,18 @@
       </section>
 
       <section class="ingredient-table">
-        <div class="input-section">
-          <p class="mobile-p-bot-gap">Zutaten für</p>
+        <form class="form-recipe" action="">
+          <label class="label-recipe" for="portions">Zutaten für</label>
           <input
-            type="text"
             placeholder="4"
-            class="input-recipe-people"
+            class="inputnmb"
+            id="portions"
+            type="number"
             min="1"
+            required
           />
-          <button>Portionen</button>
-        </div>
+          <input class="inputbtn" type="submit" value="Portionen" required />
+        </form>
         <div>
           <table cellspacing="0">
             <tr data-quantity="1" data-unit="">
@@ -158,15 +166,21 @@
           </div>
         </div>
         <p>
-          Ganze, geschälte, festkochende Kartoffeln mit Olivenöl, Salz, Pfeffer und Rosmarin mischen. Lammkoteletts
-          und Gemüse (Paprika, Zwiebeln, Aubergine, Knoblauch) ebenfalls marinieren und kurz auf dem Grill oder in der Grillpfanne anrösten,
-          bis Röstaromen entstehen. Alles zusammen in eine Ofenform geben und bei 180 Grad ca. 35 bis 40 Minuten garen, bis
-          das Fleisch zart und die Kartoffeln weich und goldbraun sind. Zum Schluss mit frischen Kräutern und
-          Zitronensaft verfeinern.
+          Ganze, geschälte, festkochende Kartoffeln mit Olivenöl, Salz, Pfeffer
+          und Rosmarin mischen. Lammkoteletts und Gemüse (Paprika, Zwiebeln,
+          Aubergine, Knoblauch) ebenfalls marinieren und kurz auf dem Grill oder
+          in der Grillpfanne anrösten, bis Röstaromen entstehen. Alles zusammen
+          in eine Ofenform geben und bei 180 Grad ca. 35 bis 40 Minuten garen,
+          bis das Fleisch zart und die Kartoffeln weich und goldbraun sind. Zum
+          Schluss mit frischen Kräutern und Zitronensaft verfeinern.
         </p>
         <h3>Rezept erstellt von</h3>
         <div class="credits">
-          <img class="profile-pic" src="./Infos/img/profile.png" alt="Bild von Gre." />
+          <img
+            class="profile-pic"
+            src="./Infos/img/profile.png"
+            alt="Bild von Gre."
+          />
           <p>Gregor</p>
         </div>
       </section>

@@ -86,14 +86,18 @@
 
       <section class="ingredient-table">
         <div class="portion-controls">
-        <div class="input-section">
-          <p>Zutaten für</p>
-          <input type="number" id="portions-input" class="input-recipe-people"  min="1" value="2">
-          <button id="calculate-btn">Portionen</button>
-        </div>
-        </div>  
-
-</div>
+      <form class="form-recipe" action="">
+          <label class="label-recipe" for="portions">Zutaten für</label>
+          <input
+            placeholder="4"
+            class="inputnmb"
+            id="portions"
+            type="number"
+            min="1"
+            required
+          />
+          <input class="inputbtn" type="submit" value="Portionen" required />
+        </form>
         <div>
           <div class="table-container">
           <table cellspacing="0">
