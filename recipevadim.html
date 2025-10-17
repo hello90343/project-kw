@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salat mit Krabbenstäbchen</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <link href="/Infos/fonts/fonts.css" rel="stylesheet" />
     <link
       rel="shortcut icon"
@@ -83,16 +84,21 @@
       </section>
 
       <section class="ingredient-table">
+        <div class="portion-controls">
         <div class="input-section">
           <p>Zutaten für</p>
-          <input type="text" placeholder="4" class="input-recipe-people" />
-          <button>Portionen</button>
+          <input type="number" id="portions-input" class="input-recipe-people"  min="1" value="2">
+          <button id="calculate-btn">Portionen</button>
         </div>
+        </div>  
+
+</div>
         <div>
+          <div class="table-container">
           <table cellspacing="0">
-            <tr class="data-quantity">
-              <td class="">350g</td>
-              <td>Krabbenstäbchen (Surimi)</td>
+             <tr data-quantity="350" data-unit="g" >
+              <td class="data-quantity">350g</td>
+              <td class="ingredient">Krabbenstäbchen (Surimi)</td>
             </tr>
             <tr data-quantity="6" data-unit="stk." >
               <td class="data-quantity">6 stk.</td>
