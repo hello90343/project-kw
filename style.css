@@ -863,6 +863,8 @@ footer #a img:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+/*
 .input-section {
   display: flex;
   align-items: center;
@@ -881,7 +883,7 @@ footer #a img:hover {
 input::placeholder {
   font-weight: bold;
 }
-
+*/
 table {
   width: 100%;
 }
@@ -940,9 +942,9 @@ h3 {
   margin-right: 16px;
 }
 /*recipe.html style end*/
-   
+
 .footer-class {
-filter: invert(1);
+  filter: invert(1);
 }
 /*media query for recipe start*/
 @media (max-width: 1300px) {
@@ -1073,3 +1075,47 @@ filter: invert(1);
 
   /*media query for recipe end*/
 }
+
+/*test for input*/
+form {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.inputtext {
+  width: 100px;
+}
+
+.inputtext:hover {
+  cursor: pointer;
+}
+
+.inputbtn {
+  width: 180px;
+
+  background-color: #167812;
+  color: white;
+  border: 0;
+  margin: 0;
+}
+
+.inputbtn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.inputnmb {
+  margin: 0;
+  width: 180px;
+}
+
+.inputnmb::placeholder {
+  font-weight: bold;
+}
+/*test for input end*/
