@@ -85,17 +85,18 @@
       </section>
 
       <section class="ingredient-table">
-        <div class="input-section">
-          <p class="mobile-p-bot-gap">Zutaten für</p>
+       <form action="">
+          <label class="inputtext" for="portions">Zutaten für</label>
           <input
-            type="text"
             placeholder="4"
-            class="input-recipe-people"
+            class="inputnmb"
+            id="portions"
+            type="number"
             min="1"
+            required
           />
-          <button>Portionen</button>
-        </div>
-        <div>
+          <input class="inputbtn" type="submit" value="Portionen" required />
+        </form>
           <table cellspacing="0">
             <tr data-quantity="1" data-unit="">
               <td class="data-quantity">1</td>

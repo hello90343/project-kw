@@ -47,7 +47,9 @@
                 <a href="recipe.html" class="mobile-link">RezeptdesTages</a>
               </li>
               <li><a href="kontakt.html" class="mobile-link">Kontakt</a></li>
-              <li><a href="impressum.html" class="mobile-link">Impressum</a></li>
+              <li>
+                <a href="impressum.html" class="mobile-link">Impressum</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -88,16 +90,18 @@
       </section>
 
       <section class="ingredient-table">
-        <div class="input-section">
-          <p class="mobile-p-bot-gap">Zutaten für</p>
+        <form action="">
+          <label class="inputtext" for="portions">Zutaten für</label>
           <input
-            type="text"
             placeholder="4"
-            class="input-recipe-people"
+            class="inputnmb"
+            id="portions"
+            type="number"
             min="1"
+            required
           />
-          <button>Portionen</button>
-        </div>
+          <input class="inputbtn" type="submit" value="Portionen" required />
+        </form>
         <div>
           <table cellspacing="0">
             <tr data-quantity="2" data-unit="">
