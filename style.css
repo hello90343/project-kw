@@ -864,26 +864,6 @@ footer #a img:hover {
   padding-right: 20px;
 }
 
-/*
-.input-section {
-  display: flex;
-  align-items: center;
-  padding-bottom: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.input-recipe-people {
-  width: 180px;
-  height: 35px;
-  border-radius: 5px;
-  margin-left: 16px;
-}
-
-input::placeholder {
-  font-weight: bold;
-}
-*/
 table {
   width: 100%;
 }
@@ -1055,18 +1035,16 @@ h3 {
     padding-top: 24px;
     padding-bottom: 24px;
   }
-
-  .input-section {
+  /* added*/
+  form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 8px;
   }
-  .input-recipe-people {
-    margin: 0;
+
+  .inputtext {
+    padding-bottom: 8px;
   }
 
   .mobile-p-bot-gap {
