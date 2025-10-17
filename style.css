@@ -1050,9 +1050,9 @@ h3 {
 
 /*css for recipe input*/
 form {
- 
   align-items: center;
   padding-bottom: 8px;
+  display: flex;
 }
 
 label {
