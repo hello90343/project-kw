@@ -1049,7 +1049,7 @@ h3 {
 /*media query for recipe end*/
 
 /*css for recipe input*/
-form {
+.inputrecipe-form {
   align-items: center;
   padding-bottom: 8px;
  
