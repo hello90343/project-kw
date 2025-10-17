@@ -1052,6 +1052,7 @@ h3 {
 form {
   align-items: center;
   padding-bottom: 8px;
+  display: flex;
 }
 
 label {
