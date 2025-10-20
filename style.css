@@ -1087,6 +1087,10 @@ h3 {
   .label-recipe {
     margin-bottom: 16px;
   }
+
+  .mobile-sec-1-h2 {
+    max-width: 250px;
+  }
 }
 /*media query for recipe end*/
 
