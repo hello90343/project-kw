@@ -1114,7 +1114,7 @@ h3 {
   border: 0;
   margin: 0;
   height: 40px;
-  border-radius: 10px;
+
 }
 
 .inputbtn:hover {
@@ -1125,7 +1125,7 @@ h3 {
 
 .inputnmb {
   margin: 0;
-  width: 60px;
+  width: 180px;
   height: 40px;
 }
 
