@@ -99,7 +99,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   padding: 20px;
 }
 
@@ -155,7 +155,7 @@ textarea {
 .submit-btn {
   color: white;
   border: none;
-  
+
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
@@ -277,9 +277,9 @@ button:hover {
 }
 
 .recipe-img-link-effect:hover {
-  scale: 1.2;
+  scale: 1.1;
   filter: drop-shadow(1);
-  transition: ease-in-out;
+  transition: 1s;
 }
 
 .img-container-sec-2 {
@@ -1088,6 +1088,10 @@ h3 {
   .label-recipe {
     margin-bottom: 16px;
   }
+
+  .mobile-sec-1-h2 {
+    max-width: 250px;
+  }
 }
 /*media query for recipe end*/
 
@@ -1099,7 +1103,6 @@ h3 {
 }
 
 .label-recipe {
-  margin-bottom: 0;
   width: 100px;
 }
 
@@ -1114,7 +1117,6 @@ h3 {
   border: 0;
   margin: 0;
   height: 40px;
-
 }
 
 .inputbtn:hover {
