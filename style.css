@@ -276,9 +276,9 @@ button:hover {
 }
 
 .recipe-img-link-effect:hover {
-  scale: 1.2;
+  scale: 1.1;
   filter: drop-shadow(1);
-  transition: ease-in-out;
+  transition: 1s;
 }
 
 .img-container-sec-2 {
