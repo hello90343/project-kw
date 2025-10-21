@@ -6,7 +6,12 @@
 
 body {
   font-family: raleway, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 
 .header {
   background-color: #fff;
@@ -415,9 +420,9 @@ footer #a img:hover {
   border-radius: 50px;
   background-size: cover;
   background-position: center;
-  box-shadow: -1px 1px 60px 10px rgb(234, 149, 39);
-  -webkit-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
-  -moz-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+  box-shadow: -1px 1px 60px 10px rgb(162, 3, 122);
+  -webkit-box-shadow: -1px 1px 60px 10px rgba(162, 3, 122);
+  -moz-box-shadow: -1px 1px 60px 10px rgba(162, 3, 122);
   transform: scale(1.2);
 }
 
@@ -596,9 +601,9 @@ footer #a img:hover {
     border-radius: 50px;
     background-size: cover;
     background-position: center;
-    box-shadow: -1px 1px 60px 10px rgb(234, 149, 39);
-    -webkit-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
-    -moz-box-shadow: -1px 1px 60px 10px rgba(234, 149, 39);
+    box-shadow: -1px 1px 60px 10px rgb(234, 39, 202);
+    -webkit-box-shadow: -1px 1px 60px 10px rgba(234, 39, 202);
+    -moz-box-shadow: -1px 1px 60px 10px rgba(234, 39, 202);
     transform: scale(1.2);
   }
 }
